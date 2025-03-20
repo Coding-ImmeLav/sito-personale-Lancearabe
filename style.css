@@ -1,0 +1,73 @@
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.hero{
+    background-color: cornflowerblue;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    aligwn-items: center;
+    text-align: center;
+    color: white;
+}
+
+.gidole-regular {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#menu{
+   /*all inizio non si vede*/
+    display: none;
+}
+
+footer{
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoscuola{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+.imglogo {
+    height: 80%;
+}
+
+.info > a{
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
