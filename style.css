@@ -1,5 +1,5 @@
 header{
-    background-color: cadetblue;
+    background-color: rgb(218, 226, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@ header{
     padding-right: 2%;
 }
 .hero{
-    background-color: cornflowerblue;
+    background-color: rgb(118, 146, 197);
     height: 92vh;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ li{
 }
 
 footer{
-    height: 13vh;
+    height: 16vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +67,56 @@ footer{
 .info > a{
     text-decoration: none;
     background-color: darkcyan;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 5px;
     border-radius: 10px;
+}
+
+/*seleziono i tre div dentro al footer*/
+footer > div{
+    /*specifico la larghezza dei tre div nel footer e li metto in mezzo*/
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.inizio {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore{
+    width: 40%;
+    background-color: lightskyblue;
+    height: 35%;
+    margin: 30 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*animazione quando passo con il mouse ssui contenitori*/
+.contenitore:hover{
+    background-color: lightblue;
+    transition: 0.3s;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+}
+
+/*personalizzo il riquaadro del curicculum*/
+.curriculum{
+    width: 70%;
+    padding: 20px;
+    border:1px solid black
+}
+
+.intestazione{
+    text-align: center;
 }
